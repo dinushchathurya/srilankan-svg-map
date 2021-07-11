@@ -1,0 +1,20 @@
+.mapdiv{
+    width:350px;
+    height:350px;
+}
+
+.mapdiv path {
+    fill: #7c7c7c;
+    stroke: white;
+    stroke-width:4px;
+    transition: fill 0.3s;
+}
+
+.mapdiv path .flag {
+    width:10px !important;
+    height:10px !important;
+}
+
+.mapdiv :hover {
+    fill:rgb(236, 233, 9);
+}
